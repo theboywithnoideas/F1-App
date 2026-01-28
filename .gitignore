@@ -1,0 +1,30 @@
+# --- F1 DATA CACHE ---
+# This is the most important part for your app!
+# It prevents the massive telemetry files from being uploaded to GitHub.
+cache/
+data/
+*.pkl
+*.csv
+
+# --- PYTHON ---
+# These are internal files Python creates to run your code. 
+# You don't need these on the website.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+
+# --- STREAMLIT ---
+# Keeps your local settings and secrets from being public.
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# --- OPERATING SYSTEMS ---
+# Junk files created by Windows or Mac.
+.DS_Store
+Thumbs.db
